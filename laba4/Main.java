@@ -2,7 +2,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Reader reader = new Reader("C:\\Users\\vlads\\Desktop\\OOP2\\OOP_2\\OOP_2\\file.txt");
+        Reader reader = new Reader("C:\\Users\\ferafontovaleks\\Desktop\\OOP2\\OOP_2\\OOP_2\\file.txt");
 
         for (int i = 0; i < reader.getSize(); i++){
             String line = reader.getElement(i);
