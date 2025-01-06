@@ -16,12 +16,12 @@ public class Main {
         phone3.receiveCall("Сергей Владимирович");
         System.out.println("Номер 3 телефона: " + phone3.getNumber());
 
-        phone1.receiveCall("Владислав", "+79631454259");
+        phone1.receiveCall("Алексей", "+79520755980");
 
         phone1.sendMessage("+79468485341", "+79669583421");
 
         Reader[] readers = new Reader[]{
-                new Reader("Вдовин В. В.", "48539", "ФМИИТ", "2005-31-05", "+7954734142"),
+                new Reader("Ферафонтов А. В.", "48539", "ФМИИТ", "2005-07-05", "+7954734142"),
                 new Reader("Мулюгин А. Д.", "00000", "ФМИИТ", "2005-07-13", "+19434612353")
         };
         readers[0].takeBook(3);
